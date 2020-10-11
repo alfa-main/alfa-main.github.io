@@ -504,7 +504,7 @@ h6 {
   -webkit-appearance: none;
 }
 
-.body.lock {
+body.lock {
   overflow: hidden;
 }
 
@@ -518,6 +518,8 @@ h6 {
   left: 0;
   opacity: 0;
   visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   -webkit-transition: all 0.8s ease 0s;
   -o-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
